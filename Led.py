@@ -7,10 +7,10 @@ class led:
         
         pin = 12
         
-        GPIO.setmode(GPIO.BOARD)
+        GPIO.setmode(GPIO.BCM)
         GPIO.setup(pin, GPIO.OUT)
         GPIO.output(pin, GPIO.HIGH)
-        time.sleep(3)
+        time.sleep(2)
         GPIO.output(pin, GPIO.LOW)
         res = ""
         while res != "si":
