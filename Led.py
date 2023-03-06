@@ -4,7 +4,7 @@ class led:
     def __init__(self): 
         super().__init__()
     def led():
-        
+             
         pin = 12
         
         GPIO.setmode(GPIO.BCM)
