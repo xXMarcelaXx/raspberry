@@ -8,7 +8,7 @@ class temperatura:
             pin = 22 #Pin en la raspberry donde conectamos el sensor
             humedad, temperatura = Adafruit_DHT.read_retry(sensor, pin)
             
-            print ('Humedad: ' , humedad)
-            print ('Temperatura: ' , temperatura)
+            print ('Humedad: ' , format(humedad))
+            print ('Temperatura: ' , format(temperatura))
             
             time.sleep(3) #Cada segundo se evalúa el sensor
