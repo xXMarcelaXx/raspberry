@@ -5,7 +5,7 @@ class led:
         super().__init__()
     def led():
         
-        pin = 7 
+        pin = 12
         
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(pin, GPIO.OUT)
