@@ -1,7 +1,7 @@
 # Importamos la paquteria necesaria
 import RPi.GPIO as GPIO
 import time
-class ultrasonico:
+class Ultrasonico:
     def __init__(self): 
         super().__init__()
 

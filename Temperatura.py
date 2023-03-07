@@ -1,6 +1,6 @@
 import Adafruit_DHT  
 import time  
-class temperatura:
+class Temperatura:
     def __init__(self): 
         super().__init__()
     def temperatura(): 

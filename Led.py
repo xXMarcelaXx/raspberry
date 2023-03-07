@@ -1,10 +1,9 @@
 import RPi.GPIO as GPIO
 import time
-class led:
+class Led:
     def __init__(self): 
         super().__init__()
-    def led():
-             
+    def led():          
         pin = 12
         
         GPIO.setmode(GPIO.BCM)
